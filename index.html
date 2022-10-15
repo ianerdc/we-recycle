@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Presentation Page</title>
+    <meta property="og:title" content="Presentation Page" http-equiv="Content-type" content="text/html; charset=utf-8" >
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Open Sans;
+        font-size: 18px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+      html {
+      scroll-behavior: smooth;
+      }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./home.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div data-role="Header" class="home-navbar-container">
+          <div class="home-navbar">
+            <div class="home-logo">
+              <img
+                alt="image"
+                src="public/playground_assets/recycling%20reuse%20logo-200h.png"
+                class="home-image"
+              />
+            </div>
+            <div class="home-links-container">
+              <a href="index.html" class="home-link">Início</a>
+              <a href="#features" class="home-link1">Publicações</a>
+              <a href="#services" class="home-link2 anchor">Serviços</a>
+              <a href="#about-us" class="home-link3 anchor">
+                Sobre a We recycle
+              </a>
+              <a href="#contact" class="home-link4 anchor">Contato</a>
+            </div>
+            <div class="home-cta-container">
+              <a href="page-login.php" class="home-cta-btn anchor button">
+                Entrar
+              </a>
+              <div data-type="BurgerMenu" class="home-burger-menu">
+                <svg viewBox="0 0 1024 1024" class="home-icon">
+                  <path
+                    d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div data-type="MobileMenu" class="home-mobile-menu">
+              <div class="home-top">
+                <img
+                  alt="image"
+                  src="public/playground_assets/default-img.svg"
+                  class="home-image1"
+                />
+                <div data-type="CloseMobileMenu" class="home-container1">
+                  <svg viewBox="0 0 1024 1024" class="home-icon02">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="home-mid">
+                <div class="home-links-container1">
+                  <a href="#features" class="home-link5 anchor">features</a>
+                  <a href="#services" class="home-link6 anchor">services</a>
+                  <a href="#about-us" class="home-link7 anchor">About Us</a>
+                  <a href="#contact" class="home-link8 anchor">contact</a>
+                </div>
+                <button class="home-cta-btn1 anchor button">
+                  sTART BUILDING
+                </button>
+              </div>
+              <div class="home-bot">
+                <div class="home-social-links-container">
+                  <svg viewBox="0 0 950.8571428571428 1024" class="home-icon04">
+                    <path
+                      d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 877.7142857142857 1024"
+                    class="home-icon06"
+                  >
+                    <path
+                      d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 877.7142857142857 1024"
+                    class="home-icon08"
+                  >
+                    <path
+                      d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-inicio">
+          <div class="home-hero-text-container">
+            <h1 class="home-heading">
+              <span>Bem-Vindo(a) ao</span>
+              <br class="home-text01" />
+              <span class="home-text02">WE RECYCLE</span>
+            </h1>
+            <span class="home-text03 section-Text">
+              Vamos cuidar do meio ambiente a partir da reciclagem de resíduos
+              sólidos e proporcionar um futuro sustentável para as próximas
+              gerações?
+            </span>
+            <button class="home-cta-btn2 button anchor">Saiba Mais</button>
+          </div>
+          <img
+            alt="image"
+            src="public/playground_assets/design%20sem%20nome-1500w.png"
+            class="home-image2"
+          />
+        </div>
+        <div class="home-section-separator"></div>
+        <div id="features" class="home-publicacoes">
+          <div class="home-heading-container">
+            <h2 class="home-text04 section-Heading">Publicações</h2>
+          </div>
+          <div class="home-cards-container">
+            <div class="home-feature-card">
+              <img
+                alt="image"
+                src="public/playground_assets/reciclagem-400w.webp"
+                class="home-image3"
+              />
+              <span class="home-heading1 card-Heading">
+                Como Funcionam as Cooperativas de Reciclagem
+              </span>
+              <span class="home-text05">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                tristique, velit eu lacinia tempor, lacus mauris consectetur
+                enim, eget lobortis orci lectus facilisis sem.
+              </span>
+            </div>
+            <div class="home-feature-card1">
+              <img
+                alt="image"
+                src="public/playground_assets/meioambiente-400w.jpg"
+                class="home-image4"
+              />
+              <span class="home-heading2 card-Heading">
+                Importância da Reciclagem de resíduos sólidos
+              </span>
+              <span class="home-text06">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                tristique, velit eu lacinia tempor, lacus mauris consectetur
+                enim, eget lobortis orci lectus facilisis sem.
+              </span>
+            </div>
+            <div class="home-feature-card2">
+              <img
+                alt="image"
+                src="public/playground_assets/o-que-e-sustentabilidade-ambiental-e-qual-sua-importancia-400w.jpg"
+                class="home-image5"
+              />
+              <span class="home-heading3 card-Heading">
+                Sustentabilidade Ambiental no Brasil
+              </span>
+              <span class="home-text07">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                tristique, velit eu lacinia tempor, lacus mauris consectetur
+                enim, eget lobortis orci lectus facilisis sem.
+              </span>
+            </div>
+          </div>
+          <button class="home-button button">
+            <span>
+              <span>Veja mais publicações</span>
+              <span class="home-text10">clicando aqui</span>
+            </span>
+          </button>
+        </div>
+        <div id="services" class="home-services">
+          <div class="home-service-card">
+            <div class="home-card-content">
+              <h3 class="home-text11 bigCard-Heading">
+                Cooperativas Disponíveis
+              </h3>
+              <span class="home-text12 card-Text">
+                Veja a lista de Cooperativas disponíveis por cidade
+              </span>
+              <button class="home-button1 button anchor">
+                VER LISTA DE COOPERATIVAS
+              </button>
+            </div>
+          </div>
+          <div class="home-service-card1">
+            <div class="home-card-content1">
+              <h3 class="home-text13 bigCard-Heading">Solicitar Orçamento</h3>
+              <span class="home-text14 card-Text">
+                Solicite orçamento com a cooperativa que desejar
+              </span>
+              <button class="home-button2 button anchor">
+                SOLICITAR ORÇAMENTO
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="about-us" class="home-about-us">
+          <div class="home-heading-container1">
+            <h2 class="home-text15 section-Heading">Sobre a We Recycle</h2>
+          </div>
+          <div class="home-text-container">
+            <span class="home-text16">
+              <span class="home-text17">O</span>
+              <span class="home-text18">WE RECYCLE</span>
+              <span></span>
+              <span class="home-text20">
+                nasceu do sonho de criança de ter um mundo melhor para todos.
+                Pensando nisso ele foi criado com o propósito de conscientizar
+                as pessoas sobre a importância da reciclagem para o meio
+                ambiente. E intermediar o trabalho de cooperativas de reciclagem
+                com famílias e empresas que desejam destinar corretamente os
+                resíduos sólidos que geram diariamente.
+              </span>
+            </span>
+          </div>
+          <button class="home-cta-btn3 button anchor">START BUILDING</button>
+        </div>
+        <div class="home-section-separator1"></div>
+        <div id="contact" class="home-contact">
+          <div class="home-content-container">
+            <h2 class="home-text21 section-Heading">Onde estamos</h2>
+            <div class="home-locations-container">
+              <div class="home-location-1">
+                <span class="home-heading4">Escritório São Paulo</span>
+                <div class="home-adress">
+                  <svg viewBox="0 0 1024 1024" class="home-icon10">
+                    <path
+                      d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"
+                    ></path>
+                  </svg>
+                  <span>Avenida Paulista, 0000, São Paulo - SP</span>
+                </div>
+                <div class="home-email">
+                  <svg viewBox="0 0 1024 1024" class="home-icon12">
+                    <path
+                      d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"
+                    ></path>
+                  </svg>
+                  <span>contato@werecycle.com.br</span>
+                </div>
+                <div class="home-phone">
+                  <svg viewBox="0 0 804.5714285714286 1024" class="home-icon14">
+                    <path
+                      d="M804.571 708.571c0 20.571-9.143 60.571-17.714 79.429-12 28-44 46.286-69.714 60.571-33.714 18.286-68 29.143-106.286 29.143-53.143 0-101.143-21.714-149.714-39.429-34.857-12.571-68.571-28-100-47.429-97.143-60-214.286-177.143-274.286-274.286-19.429-31.429-34.857-65.143-47.429-100-17.714-48.571-39.429-96.571-39.429-149.714 0-38.286 10.857-72.571 29.143-106.286 14.286-25.714 32.571-57.714 60.571-69.714 18.857-8.571 58.857-17.714 79.429-17.714 4 0 8 0 12 1.714 12 4 24.571 32 30.286 43.429 18.286 32.571 36 65.714 54.857 97.714 9.143 14.857 26.286 33.143 26.286 50.857 0 34.857-103.429 85.714-103.429 116.571 0 15.429 14.286 35.429 22.286 49.143 57.714 104 129.714 176 233.714 233.714 13.714 8 33.714 22.286 49.143 22.286 30.857 0 81.714-103.429 116.571-103.429 17.714 0 36 17.143 50.857 26.286 32 18.857 65.143 36.571 97.714 54.857 11.429 5.714 39.429 18.286 43.429 30.286 1.714 4 1.714 8 1.714 12z"
+                    ></path>
+                  </svg>
+                  <span class="section-Text">(11) 0000-0000</span>
+                </div>
+              </div>
+            </div>
+            <div class="home-social-links-container1">
+              <svg viewBox="0 0 950.8571428571428 1024" class="home-icon16">
+                <path
+                  d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                ></path></svg
+              ><svg viewBox="0 0 877.7142857142857 1024" class="home-icon18">
+                <path
+                  d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"
+                ></path></svg
+              ><svg viewBox="0 0 877.7142857142857 1024" class="home-icon20">
+                <path
+                  d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <img
+            alt="image"
+            src="public/playground_assets/minimal%20desk%20blur%20out%20of%20office%20instagram%20post-1500w.png"
+            class="home-image6"
+          />
+        </div>
+        <span class="home-text25">
+          © 2022 We Recycle, Todos os direitos reservados.
+        </span>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </body>
+</html>
